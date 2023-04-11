@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Bevan&family=Changa+One&family=Delicious+Handrawn&family=Josefin+Sans:wght@500&family=Kreon&family=Rowdies:wght@300&display=swap');
+
+body{
+  overflow-x: hidden;
+  background-image: linear-gradient(to left,rgba(43, 43, 234, 0.689),rgba(242, 113, 242, 0.612));
+  background-size: cover;
+}   
+.cont h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 1.8rem;
+}
+.cont{
+    padding: 3vw 7vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-color:white;
+    border-radius: 19px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 25px #0049B7;
+    justify-content: center;
+    align-items: center;
+    background:none;
+}
+
+#btn{width: 21.4vw;
+  outline: none;
+    border: none;
+    border-radius: 9px;
+    height: 30px;
+    outline: none;
+background-image:linear-gradient(to bottom,rgb(89, 155, 226),rgba(247, 9, 191, 0.667)) ;
+    font-family: 'Alkatra', cursive;
+    height: 45px;
+    transition: all 0.2s;
+}
+.bord:hover{
+    background-color: white;
+    box-shadow: 0px 1px 6px white ;
+transform: scale(1.02);}
+#inpi{
+ border: 1px solid black;
+ border-radius: 5px;
+ height: 30px;
+ width: 21.6vw;
+ margin-left: 2vw;
+ font-weight: bold;
+ font-size: 1.2rem;
+}
+#qr{
+    border: 3px solid grey;
+
+    padding: 10px;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 20vw;
+
+}
+.bord{
+  border-radius: 9px;
+  padding: 3px;
+  margin-top: 2vw;
+  margin-left: 2vw;
+background-image: linear-gradient(to right,rgba(211, 74, 74, 0.685),rgba(214, 91, 214, 0.711));
+transition: all 0.2s;
+
+}
+#bye{
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  background: none;
+}
+#bye li img{
+  height: 30px;
+width: 30px;
+border: 2px solid white;
+border-radius: 300px;
+margin: 10px;
+padding: 1px;
+}
+#bye ul{
+  list-style: none;
+  display: flex;
+}
+#mebt{
+
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 300px;
+  margin: 10px;
+}
+.last{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(11, 10, 15);
+}
+
+#last {
+
+
+  color: white;
+}
+#in{
+  padding: 10px;
+}
+#ins{
+  border: none;
+}
+/*MEDIA QUERY --------------*/
+@media screen and (max-width:1025px) {
+  .cont{
+    padding: 1vw 3vw;
+    width: 35vw;
+    height: 70vh;
+  }
+  .cont h1{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:1153px) {
+  .cont{
+    padding: 1vw 3vw;
+    width: 35vw;
+    height: 70vh;
+  }
+  .cont h1{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:890px) {
+  .cont{
+    padding: 1vw 3vw;
+    width: 35vw;
+  }
+}
+@media screen and (max-width:795px) {
+    .cont{
+      width: 45vw;
+      padding: 1vw;
+    }
+    #qr{
+        width: 24vw;
+    }
+    #inpi{
+        width:26vw
+    }
+  }
+  @media screen and (max-width:630px) {
+    .cont{
+      padding: 1vw;
+      width: 60vw;
+    }
+    #qr{
+        width: 30vw;
+    }
+    #inpi{
+        width:32vw
+    }
+    #btn{
+        width: 24vw;
+    }
+  }
+  @media screen and (max-width:490px) {
+    .cont{
+      padding: 1vw;
+      width: 80vw;
+    }
+    #qr{
+        width: 50vw;
+    }
+    #inpi{
+        width:53vw
+    }
+    #btn{
+        width: 40vw;
+        margin-bottom: 1vw;
+    }
+  }
+  @media screen and (max-width:380px) {
+    .cont{
+      padding: 1vw;
+      width: 90vw;
+    }
+    #qr{
+        width: 50vw;
+    }
+    #inpi{
+        width:55vw
+    }
+    #btn{
+        width: 40vw;
+    }
+  }
